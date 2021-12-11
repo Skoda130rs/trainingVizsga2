@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="root"> 
+        <h1 class="header">JELENTKEZÉS</h1>
+        <form class="inputForm" action="data.php" method="get">
+            <input type="text" placeholder="Név" id="name">
+            <br>
+            <input type="email" id="email" placeholder="Email" >
+            <br>
+            <section class="check">
+                <input type="checkbox" id="box"  >
+                <span> Elolvastam és elfogadom az </span>
+                <a href="https://www.bprh.hu">
+                <span class="Data">Adatkezelési Tájékoztatót.</span>
+                </a> 
+            </section>
+            <input class="submit" type="submit" value="ELKÜLD">
+        </form>
+    </div>
+</body>
+</html>

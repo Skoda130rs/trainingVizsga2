@@ -1,0 +1,55 @@
+#root{
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    color: #138073;
+    background-color: #e6e6e6;
+}
+h1 {
+    position: relative;
+     font-size: 24px;
+     font-weight: 500;
+     letter-spacing: 0.2em;
+     top: 30%;
+     text-align: center;
+    }
+span {
+    color: #138073;
+}
+#name, #email, .submit {
+    position: absolute;
+    color: #138073;
+    height: 64px;
+    width: 500px;
+    /*max-width: 400px;*/
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+#name{
+    top: 40%;
+    font-size: 18px;
+    padding-left: 20px;
+}
+#email{
+    top: 50%;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.submit{
+    top: 70%;
+    max-width: 200px;
+    background-color: #39b69f;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    color:white;
+    border: none
+}
+#box{
+    width: 20px;
+}
+.check {
+ position: absolute;
+ top: 60%;
+ left: 50%;
+ transform: translateX(-50%);
+}
