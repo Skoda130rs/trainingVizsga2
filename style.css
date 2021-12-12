@@ -7,7 +7,7 @@
 h1 {
     position: relative;
      font-size: 24px;
-     font-weight: 500;
+     font-weight: 600;
      letter-spacing: 0.2em;
      top: 30%;
      text-align: center;
@@ -23,17 +23,20 @@ span {
     /*max-width: 400px;*/
     left: 50%;
     transform: translateX(-50%);
-
+}
+::placeholder{
+    color:#138073;
 }
 #name{
     top: 40%;
     font-size: 18px;
-    padding-left: 20px;
+    padding-left: 30px;
+    color:#138073;
 }
 #email{
     top: 50%;
     font-size: 18px;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 .submit{
     top: 70%;
@@ -42,7 +45,8 @@ span {
     font-size: 12px;
     letter-spacing: 0.2em;
     color:white;
-    border: none
+    border: none;
+
 }
 #box{
     width: 20px;
@@ -55,4 +59,29 @@ span {
 }
 a {
     color: #39b69f;
+}
+
+@media screen and (max-width: 700px) {
+    h1 {
+        text-align: right;
+        right: 10%;
+        }
+    span {
+        color: #138073;
+    }
+    #name, #email, .submit {
+        width: 70%;
+        min-width: 300px;
+    
+    }
+    #name, #email{
+        font-size: 18px;
+        padding-left: 20px; 
+    }
+    .submit{
+        min-width: 200px;
+        color:white;
+    }
+
+
 }
